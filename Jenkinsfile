@@ -42,6 +42,7 @@ node() {
                         cd player
                         npm install
                         npm run build-preview ekstep
+                        ls
                         grunt compress:preview
                         grunt generate-libs
                         #grunt renderer-test
